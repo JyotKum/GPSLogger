@@ -221,7 +221,8 @@ public class Files {
         {
             return "";
         }
-
+ /*
+ //empty value return to have a default profile
         String baseFileName = data.getLastPathSegment();
         int pos = baseFileName.lastIndexOf(".");
         if (pos > 0 && pos < (baseFileName.length() - 1)) {
@@ -231,6 +232,8 @@ public class Files {
 
 
         return baseFileName;
+        */
+        return "";
 
     }
 
